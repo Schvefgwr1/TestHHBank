@@ -1,0 +1,27 @@
+2024-03-02T14:48:58.406+03:00  INFO 37376 --- [main] b.t.web.services.BalanceServiceTest      : Starting BalanceServiceTest using Java 17.0.2 with PID 37376 (started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T14:48:58.408+03:00  INFO 37376 --- [main] b.t.web.services.BalanceServiceTest      : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T14:48:59.131+03:00  INFO 37376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-02T14:48:59.184+03:00  INFO 37376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+2024-03-02T14:48:59.673+03:00  INFO 37376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-02T14:48:59.937+03:00  INFO 37376 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@57151b3a
+2024-03-02T14:48:59.939+03:00  INFO 37376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-02T14:49:00.075+03:00  INFO 37376 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-02T14:49:00.160+03:00  INFO 37376 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-02T14:49:00.204+03:00  INFO 37376 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-02T14:49:00.475+03:00  INFO 37376 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-02T14:49:01.348+03:00  INFO 37376 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-02T14:49:01.351+03:00  INFO 37376 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T14:49:01.650+03:00  INFO 37376 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-02T14:49:02.071+03:00  WARN 37376 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-02T14:49:02.486+03:00  WARN 37376 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: efc6333a-d43a-45f7-81a1-6d540852329d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-02T14:49:02.579+03:00  INFO 37376 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@27bd124a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7902a4d7, org.springframework.security.web.context.SecurityContextHolderFilter@7ba38cce, org.springframework.security.web.header.HeaderWriterFilter@60666985, org.springframework.web.filter.CorsFilter@397a70d8, org.springframework.security.web.csrf.CsrfFilter@1e90939f, org.springframework.security.web.authentication.logout.LogoutFilter@253fb3fa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@80f3111, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@54e0b29c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56a0dd11, org.springframework.security.web.access.ExceptionTranslationFilter@6903bec9, org.springframework.security.web.access.intercept.AuthorizationFilter@1a389b39]
+2024-03-02T14:49:02.850+03:00  WARN 37376 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-02T14:49:03.030+03:00  INFO 37376 --- [main] b.t.web.services.BalanceServiceTest      : Started BalanceServiceTest in 4.936 seconds (process running for 5.822)
+2024-03-02T14:49:03.700+03:00  INFO 37376 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T14:49:03.703+03:00  INFO 37376 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-02T14:49:03.707+03:00  INFO 37376 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

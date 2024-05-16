@@ -1,7 +1,7 @@
 package bank.testhhbank.security.models.output;
 
 
-import astraproject.astracore.models.User;
+import bank.testhhbank.models.User;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;
 import lombok.Data;

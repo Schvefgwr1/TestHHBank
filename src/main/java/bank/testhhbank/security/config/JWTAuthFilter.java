@@ -1,8 +1,8 @@
 package bank.testhhbank.security.config;
 
 
-import astraproject.astraapi.security.services.JWTUtils;
-import astraproject.astraapi.security.services.UsersDetailsService;
+import bank.testhhbank.security.services.JWTUtils;
+import bank.testhhbank.security.services.UsersDetailsService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

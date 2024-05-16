@@ -1,13 +1,14 @@
 package bank.testhhbank.web.DTO;
 
 import bank.testhhbank.models.User;
-import lombok.Builder;
-import lombok.Data;
-import lombok.RequiredArgsConstructor;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.*;
 
 @Data
 @RequiredArgsConstructor
+@AllArgsConstructor
 @Builder
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class UserResponse {
     private User user;
     private String message;

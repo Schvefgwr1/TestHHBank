@@ -1,5 +1,6 @@
+
 CREATE TABLE IF NOT EXISTS users (
-    id INTEGER PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     login VARCHAR(127) NOT NULL,
     password VARCHAR(255) NOT NULL,
     email VARCHAR(255),
@@ -8,5 +9,6 @@ CREATE TABLE IF NOT EXISTS users (
     lastname VARCHAR(50),
     surname VARCHAR(50),
     date_of_birth DATE,
-    price INTEGER NOT NULL
+    price DOUBLE PRECISION NOT NULL,
+    initial_price DOUBLE PRECISION NOT NULL
 );

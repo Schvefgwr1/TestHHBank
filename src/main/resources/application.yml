@@ -1,1 +1,19 @@
-
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test_bank_system
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: 12353890
+    log-statement: true
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema-postgres.sql
+      platform: postgres
+logging:
+  file:
+    path: classpath
+    file: TacoCloud.log
+  level:
+    root: INFO
+    org.springframework.security: DEBUG

@@ -25,3 +25,914 @@ This generated password is for development use only. Your security configuration
 2024-03-02T14:49:03.700+03:00  INFO 37376 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-03-02T14:49:03.703+03:00  INFO 37376 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-03-02T14:49:03.707+03:00  INFO 37376 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-02T14:51:41.417+03:00  INFO 41588 --- [main] b.t.web.services.BalanceServiceTest      : Starting BalanceServiceTest using Java 17.0.2 with PID 41588 (started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T14:51:41.418+03:00  INFO 41588 --- [main] b.t.web.services.BalanceServiceTest      : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T14:51:42.049+03:00  INFO 41588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-02T14:51:42.094+03:00  INFO 41588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2024-03-02T14:51:42.533+03:00  INFO 41588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-02T14:51:42.756+03:00  INFO 41588 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@46a123e4
+2024-03-02T14:51:42.758+03:00  INFO 41588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-02T14:51:42.850+03:00  INFO 41588 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-02T14:51:42.909+03:00  INFO 41588 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-02T14:51:42.945+03:00  INFO 41588 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-02T14:51:43.174+03:00  INFO 41588 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-02T14:51:43.979+03:00  INFO 41588 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-02T14:51:43.982+03:00  INFO 41588 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T14:51:44.249+03:00  INFO 41588 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-02T14:51:44.633+03:00  WARN 41588 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-02T14:51:45.043+03:00  WARN 41588 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 40b222a6-4b3a-4dbe-bf16-b618ce667b91
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-02T14:51:45.128+03:00  INFO 41588 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5035c23c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4149067d, org.springframework.security.web.context.SecurityContextHolderFilter@5843ab8, org.springframework.security.web.header.HeaderWriterFilter@5f0b2fe1, org.springframework.web.filter.CorsFilter@4d8458a1, org.springframework.security.web.csrf.CsrfFilter@24a4e9c0, org.springframework.security.web.authentication.logout.LogoutFilter@19aa9540, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77393f2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4300b54c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d2c794d, org.springframework.security.web.access.ExceptionTranslationFilter@69c03fa2, org.springframework.security.web.access.intercept.AuthorizationFilter@57283e4]
+2024-03-02T14:51:45.356+03:00  WARN 41588 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-02T14:51:45.516+03:00  INFO 41588 --- [main] b.t.web.services.BalanceServiceTest      : Started BalanceServiceTest in 4.398 seconds (process running for 5.271)
+2024-03-02T14:51:46.151+03:00  INFO 41588 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T14:51:46.153+03:00  INFO 41588 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-02T14:51:46.158+03:00  INFO 41588 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-02T14:56:13.531+03:00  INFO 22652 --- [main] b.t.web.api.BalanceControllerTest        : Starting BalanceControllerTest using Java 17.0.2 with PID 22652 (started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T14:56:13.532+03:00  INFO 22652 --- [main] b.t.web.api.BalanceControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T14:56:15.352+03:00  WARN 22652 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-02T14:56:15.414+03:00  WARN 22652 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 739302c5-921a-48dc-b3a5-e527335d37de
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-02T14:56:15.523+03:00  INFO 22652 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@ff4b223, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61554b6b, org.springframework.security.web.context.SecurityContextHolderFilter@4ffa7041, org.springframework.security.web.header.HeaderWriterFilter@485c84d7, org.springframework.web.filter.CorsFilter@761f234c, org.springframework.security.web.csrf.CsrfFilter@68a5aadd, org.springframework.security.web.authentication.logout.LogoutFilter@d76099a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@78bad03b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@48277712, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@687b0ddc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@53b7bf01, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@56b05bd7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e4afd10, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42b4df5a, org.springframework.security.web.access.ExceptionTranslationFilter@5d37aa0f, org.springframework.security.web.access.intercept.AuthorizationFilter@70a24f9]
+2024-03-02T14:56:15.557+03:00  INFO 22652 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-02T14:56:15.558+03:00  INFO 22652 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-02T14:56:15.559+03:00  INFO 22652 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-03-02T14:56:15.588+03:00  INFO 22652 --- [main] b.t.web.api.BalanceControllerTest        : Started BalanceControllerTest in 2.387 seconds (process running for 3.234)
+2024-03-02T14:56:15.671+03:00 DEBUG 22652 --- [main] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer
+2024-03-02T14:56:15.679+03:00 DEBUG 22652 --- [main] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost/api/transfer
+2024-03-02T14:56:15.680+03:00 DEBUG 22652 --- [main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T14:56:15.708+03:00 DEBUG 22652 --- [main] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer
+2024-03-02T14:56:15.708+03:00 DEBUG 22652 --- [main] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost/api/transfer
+2024-03-02T14:56:15.708+03:00 DEBUG 22652 --- [main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T14:56:15.716+03:00 DEBUG 22652 --- [main] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer
+2024-03-02T14:56:15.717+03:00 DEBUG 22652 --- [main] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost/api/transfer
+2024-03-02T14:56:15.717+03:00 DEBUG 22652 --- [main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T14:59:08.655+03:00  INFO 40668 --- [main] b.t.web.api.BalanceControllerTest        : Starting BalanceControllerTest using Java 17.0.2 with PID 40668 (started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T14:59:08.657+03:00  INFO 40668 --- [main] b.t.web.api.BalanceControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T14:59:10.523+03:00  WARN 40668 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-02T14:59:10.587+03:00  WARN 40668 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 69eba63f-53bd-4e5e-b632-f1c97a064874
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-02T14:59:10.696+03:00  INFO 40668 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@53b7bf01, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@139089a4, org.springframework.security.web.context.SecurityContextHolderFilter@485c84d7, org.springframework.security.web.header.HeaderWriterFilter@65d7eea4, org.springframework.web.filter.CorsFilter@6a6e9289, org.springframework.security.web.csrf.CsrfFilter@4db728df, org.springframework.security.web.authentication.logout.LogoutFilter@f48a080, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@29b8df5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@20faaf77, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@ff4b223, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@18bb1b88, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72a3462f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ffa7041, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61554b6b, org.springframework.security.web.access.ExceptionTranslationFilter@1c18ee69, org.springframework.security.web.access.intercept.AuthorizationFilter@44976b08]
+2024-03-02T14:59:10.733+03:00  INFO 40668 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-02T14:59:10.733+03:00  INFO 40668 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-02T14:59:10.734+03:00  INFO 40668 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-03-02T14:59:10.768+03:00  INFO 40668 --- [main] b.t.web.api.BalanceControllerTest        : Started BalanceControllerTest in 2.452 seconds (process running for 3.295)
+2024-03-02T14:59:10.849+03:00 DEBUG 40668 --- [main] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer
+2024-03-02T14:59:10.858+03:00 DEBUG 40668 --- [main] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost/api/transfer
+2024-03-02T14:59:10.859+03:00 DEBUG 40668 --- [main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T14:59:10.887+03:00 DEBUG 40668 --- [main] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer
+2024-03-02T14:59:10.888+03:00 DEBUG 40668 --- [main] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost/api/transfer
+2024-03-02T14:59:10.888+03:00 DEBUG 40668 --- [main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T14:59:10.897+03:00 DEBUG 40668 --- [main] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer
+2024-03-02T14:59:10.897+03:00 DEBUG 40668 --- [main] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost/api/transfer
+2024-03-02T14:59:10.897+03:00 DEBUG 40668 --- [main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T14:59:18.374+03:00  INFO 37024 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : Starting TestHhBankApplication using Java 17.0.2 with PID 37024 (C:\Users\Сева Счетов\IdeaProjects\TestHHBank\target\classes started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T14:59:18.376+03:00  INFO 37024 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T14:59:18.405+03:00  INFO 37024 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-02T14:59:18.405+03:00  INFO 37024 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-02T14:59:18.900+03:00  INFO 37024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-02T14:59:18.940+03:00  INFO 37024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
+2024-03-02T14:59:19.401+03:00  INFO 37024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-02T14:59:19.411+03:00  INFO 37024 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-02T14:59:19.411+03:00  INFO 37024 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-02T14:59:19.456+03:00  INFO 37024 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-02T14:59:19.456+03:00  INFO 37024 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1051 ms
+2024-03-02T14:59:19.530+03:00  INFO 37024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-02T14:59:19.653+03:00  INFO 37024 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@51526b35
+2024-03-02T14:59:19.654+03:00  INFO 37024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-02T14:59:19.721+03:00  INFO 37024 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-02T14:59:19.760+03:00  INFO 37024 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-02T14:59:19.788+03:00  INFO 37024 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-02T14:59:19.953+03:00  INFO 37024 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-02T14:59:20.615+03:00  INFO 37024 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-02T14:59:20.617+03:00  INFO 37024 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T14:59:20.818+03:00  INFO 37024 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-02T14:59:21.079+03:00  WARN 37024 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-02T14:59:21.339+03:00  WARN 37024 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ee7f4662-0ac2-4068-8e25-aa7f8ef3c363
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-02T14:59:21.403+03:00  INFO 37024 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3f5a63fc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@16e4f3ba, org.springframework.security.web.context.SecurityContextHolderFilter@64d2b303, org.springframework.security.web.header.HeaderWriterFilter@315711f1, org.springframework.web.filter.CorsFilter@19615bcb, org.springframework.security.web.csrf.CsrfFilter@53a7a1b8, org.springframework.security.web.authentication.logout.LogoutFilter@12e136ba, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@450740e2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52d6772b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@238f8574, org.springframework.security.web.access.ExceptionTranslationFilter@3debca7c, org.springframework.security.web.access.intercept.AuthorizationFilter@1ad6783d]
+2024-03-02T14:59:21.506+03:00  WARN 37024 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-02T14:59:21.634+03:00  INFO 37024 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-02T14:59:21.663+03:00  INFO 37024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-02T14:59:21.676+03:00  INFO 37024 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : Started TestHhBankApplication in 3.6 seconds (process running for 4.108)
+2024-03-02T14:59:32.660+03:00  INFO 37024 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-02T14:59:32.660+03:00  INFO 37024 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-02T14:59:32.662+03:00  INFO 37024 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-03-02T14:59:32.677+03:00 DEBUG 37024 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/users
+2024-03-02T14:59:32.684+03:00 DEBUG 37024 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/users
+2024-03-02T14:59:32.736+03:00 DEBUG 37024 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T14:59:33.828+03:00 DEBUG 37024 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/users
+2024-03-02T14:59:33.829+03:00 DEBUG 37024 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/users
+2024-03-02T14:59:33.834+03:00 DEBUG 37024 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T14:59:34.561+03:00 DEBUG 37024 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/users
+2024-03-02T14:59:34.562+03:00 DEBUG 37024 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/users
+2024-03-02T14:59:34.567+03:00 DEBUG 37024 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T14:59:42.651+03:00 DEBUG 37024 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing PATCH /api/users/delete_email/2
+2024-03-02T14:59:42.684+03:00 DEBUG 37024 --- [http-nio-8080-exec-5] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/users/delete_email/2
+2024-03-02T14:59:42.684+03:00 DEBUG 37024 --- [http-nio-8080-exec-5] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T14:59:42.687+03:00 DEBUG 37024 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing PATCH /error
+2024-03-02T14:59:42.688+03:00 DEBUG 37024 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured PATCH /error
+2024-03-02T14:59:42.703+03:00 DEBUG 37024 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T14:59:45.114+03:00 DEBUG 37024 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing PATCH /api/users/delete_email/2
+2024-03-02T14:59:45.114+03:00 DEBUG 37024 --- [http-nio-8080-exec-7] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/users/delete_email/2
+2024-03-02T14:59:45.115+03:00 DEBUG 37024 --- [http-nio-8080-exec-7] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T14:59:45.115+03:00 DEBUG 37024 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing PATCH /error
+2024-03-02T14:59:45.115+03:00 DEBUG 37024 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured PATCH /error
+2024-03-02T14:59:45.117+03:00 DEBUG 37024 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T14:59:45.971+03:00 DEBUG 37024 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing PATCH /api/users/delete_email/2
+2024-03-02T14:59:45.971+03:00 DEBUG 37024 --- [http-nio-8080-exec-6] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/users/delete_email/2
+2024-03-02T14:59:45.971+03:00 DEBUG 37024 --- [http-nio-8080-exec-6] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T14:59:45.972+03:00 DEBUG 37024 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing PATCH /error
+2024-03-02T14:59:45.972+03:00 DEBUG 37024 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured PATCH /error
+2024-03-02T14:59:45.973+03:00 DEBUG 37024 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T14:59:46.740+03:00 DEBUG 37024 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing PATCH /api/users/delete_email/2
+2024-03-02T14:59:46.740+03:00 DEBUG 37024 --- [http-nio-8080-exec-8] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/users/delete_email/2
+2024-03-02T14:59:46.740+03:00 DEBUG 37024 --- [http-nio-8080-exec-8] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T14:59:46.741+03:00 DEBUG 37024 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing PATCH /error
+2024-03-02T14:59:46.741+03:00 DEBUG 37024 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured PATCH /error
+2024-03-02T14:59:46.742+03:00 DEBUG 37024 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T14:59:47.618+03:00 DEBUG 37024 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing PATCH /api/users/delete_email/2
+2024-03-02T14:59:47.618+03:00 DEBUG 37024 --- [http-nio-8080-exec-9] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/users/delete_email/2
+2024-03-02T14:59:47.618+03:00 DEBUG 37024 --- [http-nio-8080-exec-9] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T14:59:47.619+03:00 DEBUG 37024 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing PATCH /error
+2024-03-02T14:59:47.619+03:00 DEBUG 37024 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured PATCH /error
+2024-03-02T14:59:47.621+03:00 DEBUG 37024 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T14:59:49.073+03:00 DEBUG 37024 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing PATCH /api/users/delete_email/2
+2024-03-02T14:59:49.074+03:00 DEBUG 37024 --- [http-nio-8080-exec-10] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/users/delete_email/2
+2024-03-02T14:59:49.074+03:00 DEBUG 37024 --- [http-nio-8080-exec-10] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T14:59:49.075+03:00 DEBUG 37024 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing PATCH /error
+2024-03-02T14:59:49.075+03:00 DEBUG 37024 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured PATCH /error
+2024-03-02T14:59:49.076+03:00 DEBUG 37024 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T14:59:53.118+03:00 DEBUG 37024 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing PATCH /api/users/delete_email/2
+2024-03-02T14:59:53.119+03:00 DEBUG 37024 --- [http-nio-8080-exec-1] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/users/delete_email/2
+2024-03-02T14:59:53.119+03:00 DEBUG 37024 --- [http-nio-8080-exec-1] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T14:59:53.120+03:00 DEBUG 37024 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing PATCH /error
+2024-03-02T14:59:53.120+03:00 DEBUG 37024 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured PATCH /error
+2024-03-02T14:59:53.121+03:00 DEBUG 37024 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:00:15.082+03:00 DEBUG 37024 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/filters/Test Test Test
+2024-03-02T15:00:15.082+03:00 DEBUG 37024 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/filters/Test Test Test
+2024-03-02T15:00:15.110+03:00 DEBUG 37024 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:00:16.460+03:00 DEBUG 37024 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/filters/Test Test Test
+2024-03-02T15:00:16.462+03:00 DEBUG 37024 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/filters/Test Test Test
+2024-03-02T15:00:16.467+03:00 DEBUG 37024 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:00:17.325+03:00 DEBUG 37024 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/filters/Test Test Test
+2024-03-02T15:00:17.326+03:00 DEBUG 37024 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/filters/Test Test Test
+2024-03-02T15:00:17.329+03:00 DEBUG 37024 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:00:17.951+03:00 DEBUG 37024 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/filters/Test Test Test
+2024-03-02T15:00:17.951+03:00 DEBUG 37024 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/filters/Test Test Test
+2024-03-02T15:00:17.955+03:00 DEBUG 37024 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:00:21.796+03:00 DEBUG 37024 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:00:21.797+03:00 DEBUG 37024 --- [http-nio-8080-exec-7] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:00:21.797+03:00 DEBUG 37024 --- [http-nio-8080-exec-7] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:00:21.797+03:00 DEBUG 37024 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:00:21.801+03:00 DEBUG 37024 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:00:21.803+03:00 DEBUG 37024 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:01:52.164+03:00  INFO 37024 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T15:01:52.167+03:00  INFO 37024 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-02T15:01:52.170+03:00  INFO 37024 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-02T15:01:55.086+03:00  INFO 34476 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : Starting TestHhBankApplication using Java 17.0.2 with PID 34476 (C:\Users\Сева Счетов\IdeaProjects\TestHHBank\target\classes started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T15:01:55.087+03:00  INFO 34476 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T15:01:55.117+03:00  INFO 34476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-02T15:01:55.117+03:00  INFO 34476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-02T15:01:55.671+03:00  INFO 34476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-02T15:01:55.702+03:00  INFO 34476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2024-03-02T15:01:56.123+03:00  INFO 34476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-02T15:01:56.131+03:00  INFO 34476 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-02T15:01:56.131+03:00  INFO 34476 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-02T15:01:56.171+03:00  INFO 34476 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-02T15:01:56.171+03:00  INFO 34476 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1054 ms
+2024-03-02T15:01:56.243+03:00  INFO 34476 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-02T15:01:56.360+03:00  INFO 34476 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7acae081
+2024-03-02T15:01:56.362+03:00  INFO 34476 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-02T15:01:56.426+03:00  INFO 34476 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-02T15:01:56.467+03:00  INFO 34476 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-02T15:01:56.494+03:00  INFO 34476 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-02T15:01:56.660+03:00  INFO 34476 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-02T15:01:57.314+03:00  INFO 34476 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-02T15:01:57.317+03:00  INFO 34476 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T15:01:57.521+03:00  INFO 34476 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-02T15:01:57.786+03:00  WARN 34476 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-02T15:01:58.086+03:00  WARN 34476 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: fd301244-6d2c-42e7-9e3d-7e06aa1a7631
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-02T15:01:58.148+03:00  INFO 34476 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6487f599, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2c325f86, org.springframework.security.web.context.SecurityContextHolderFilter@2d787acc, org.springframework.security.web.header.HeaderWriterFilter@b55abad, org.springframework.web.filter.CorsFilter@2e5287ff, org.springframework.security.web.csrf.CsrfFilter@9141d7e, org.springframework.security.web.authentication.logout.LogoutFilter@423cad32, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66aedf12, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e1fe0fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@476ece40, org.springframework.security.web.access.ExceptionTranslationFilter@2c3279d8, org.springframework.security.web.access.intercept.AuthorizationFilter@7727eb44]
+2024-03-02T15:01:58.255+03:00  WARN 34476 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-02T15:01:58.376+03:00  INFO 34476 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-02T15:01:58.403+03:00  INFO 34476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-02T15:01:58.412+03:00  INFO 34476 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : Started TestHhBankApplication in 3.626 seconds (process running for 4.155)
+2024-03-02T15:02:29.329+03:00  INFO 34476 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-02T15:02:29.330+03:00  INFO 34476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-02T15:02:29.331+03:00  INFO 34476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-02T15:02:29.345+03:00 DEBUG 34476 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:29.350+03:00 DEBUG 34476 --- [http-nio-8080-exec-1] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:29.351+03:00 DEBUG 34476 --- [http-nio-8080-exec-1] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:02:29.355+03:00 DEBUG 34476 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:29.360+03:00 DEBUG 34476 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:29.404+03:00 DEBUG 34476 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:02:30.226+03:00 DEBUG 34476 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:30.226+03:00 DEBUG 34476 --- [http-nio-8080-exec-3] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:30.226+03:00 DEBUG 34476 --- [http-nio-8080-exec-3] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:02:30.226+03:00 DEBUG 34476 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:30.226+03:00 DEBUG 34476 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:30.228+03:00 DEBUG 34476 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:02:30.924+03:00 DEBUG 34476 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:30.924+03:00 DEBUG 34476 --- [http-nio-8080-exec-4] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:30.924+03:00 DEBUG 34476 --- [http-nio-8080-exec-4] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:02:30.925+03:00 DEBUG 34476 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:30.925+03:00 DEBUG 34476 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:30.927+03:00 DEBUG 34476 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:02:31.628+03:00 DEBUG 34476 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:31.628+03:00 DEBUG 34476 --- [http-nio-8080-exec-5] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:31.628+03:00 DEBUG 34476 --- [http-nio-8080-exec-5] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:02:31.629+03:00 DEBUG 34476 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:31.629+03:00 DEBUG 34476 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:31.631+03:00 DEBUG 34476 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:02:32.142+03:00 DEBUG 34476 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:32.143+03:00 DEBUG 34476 --- [http-nio-8080-exec-6] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:32.143+03:00 DEBUG 34476 --- [http-nio-8080-exec-6] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:02:32.144+03:00 DEBUG 34476 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:32.144+03:00 DEBUG 34476 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:32.146+03:00 DEBUG 34476 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:02:32.484+03:00 DEBUG 34476 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:32.485+03:00 DEBUG 34476 --- [http-nio-8080-exec-7] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:32.485+03:00 DEBUG 34476 --- [http-nio-8080-exec-7] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:02:32.486+03:00 DEBUG 34476 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:32.486+03:00 DEBUG 34476 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:32.488+03:00 DEBUG 34476 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:02:32.794+03:00 DEBUG 34476 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:32.795+03:00 DEBUG 34476 --- [http-nio-8080-exec-8] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:32.795+03:00 DEBUG 34476 --- [http-nio-8080-exec-8] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:02:32.796+03:00 DEBUG 34476 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:32.796+03:00 DEBUG 34476 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:02:32.798+03:00 DEBUG 34476 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:02:43.642+03:00  INFO 34476 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T15:02:43.644+03:00  INFO 34476 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-02T15:02:43.647+03:00  INFO 34476 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-02T15:05:22.485+03:00  INFO 41592 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : Starting TestHhBankApplication using Java 17.0.2 with PID 41592 (C:\Users\Сева Счетов\IdeaProjects\TestHHBank\target\classes started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T15:05:22.488+03:00  INFO 41592 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T15:05:22.520+03:00  INFO 41592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-02T15:05:22.520+03:00  INFO 41592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-02T15:05:23.053+03:00  INFO 41592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-02T15:05:23.089+03:00  INFO 41592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interface.
+2024-03-02T15:05:23.566+03:00  INFO 41592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-02T15:05:23.574+03:00  INFO 41592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-02T15:05:23.574+03:00  INFO 41592 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-02T15:05:23.618+03:00  INFO 41592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-02T15:05:23.619+03:00  INFO 41592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1099 ms
+2024-03-02T15:05:23.690+03:00  INFO 41592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-02T15:05:23.820+03:00  INFO 41592 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@68fa1c93
+2024-03-02T15:05:23.822+03:00  INFO 41592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-02T15:05:23.890+03:00  INFO 41592 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-02T15:05:23.938+03:00  INFO 41592 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-02T15:05:23.969+03:00  INFO 41592 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-02T15:05:24.166+03:00  INFO 41592 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-02T15:05:24.915+03:00  INFO 41592 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-02T15:05:24.917+03:00  INFO 41592 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T15:05:25.149+03:00  INFO 41592 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-02T15:05:25.421+03:00  WARN 41592 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-02T15:05:25.720+03:00  WARN 41592 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 40d75741-4146-41fb-a930-63709346b3e6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-02T15:05:25.787+03:00  INFO 41592 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@70b430d1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b003484, org.springframework.security.web.context.SecurityContextHolderFilter@3345efe8, org.springframework.security.web.header.HeaderWriterFilter@32368f39, org.springframework.web.filter.CorsFilter@62de3472, org.springframework.security.web.csrf.CsrfFilter@354644a1, org.springframework.security.web.authentication.logout.LogoutFilter@ec5e2ca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@194b0b73, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29e92443, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@162a642e, org.springframework.security.web.access.ExceptionTranslationFilter@682b5583, org.springframework.security.web.access.intercept.AuthorizationFilter@2631b5c6]
+2024-03-02T15:05:25.893+03:00  WARN 41592 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-02T15:05:26.032+03:00  INFO 41592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-02T15:05:26.066+03:00  INFO 41592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-02T15:05:26.077+03:00  INFO 41592 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : Started TestHhBankApplication in 3.929 seconds (process running for 4.525)
+2024-03-02T15:05:33.244+03:00  INFO 41592 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-02T15:05:33.244+03:00  INFO 41592 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-02T15:05:33.245+03:00  INFO 41592 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-02T15:05:33.259+03:00 DEBUG 41592 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:33.292+03:00 DEBUG 41592 --- [http-nio-8080-exec-2] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:33.292+03:00 DEBUG 41592 --- [http-nio-8080-exec-2] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:05:33.296+03:00 DEBUG 41592 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:33.301+03:00 DEBUG 41592 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:33.346+03:00 DEBUG 41592 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:05:34.241+03:00 DEBUG 41592 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:34.241+03:00 DEBUG 41592 --- [http-nio-8080-exec-3] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:34.241+03:00 DEBUG 41592 --- [http-nio-8080-exec-3] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:05:34.242+03:00 DEBUG 41592 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:34.242+03:00 DEBUG 41592 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:34.243+03:00 DEBUG 41592 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:05:35.185+03:00 DEBUG 41592 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:35.186+03:00 DEBUG 41592 --- [http-nio-8080-exec-4] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:35.186+03:00 DEBUG 41592 --- [http-nio-8080-exec-4] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:05:35.187+03:00 DEBUG 41592 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:35.187+03:00 DEBUG 41592 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:35.188+03:00 DEBUG 41592 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:05:36.200+03:00 DEBUG 41592 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:36.201+03:00 DEBUG 41592 --- [http-nio-8080-exec-5] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:36.201+03:00 DEBUG 41592 --- [http-nio-8080-exec-5] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:05:36.202+03:00 DEBUG 41592 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:36.202+03:00 DEBUG 41592 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:36.204+03:00 DEBUG 41592 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:05:37.137+03:00 DEBUG 41592 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:37.138+03:00 DEBUG 41592 --- [http-nio-8080-exec-6] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:37.138+03:00 DEBUG 41592 --- [http-nio-8080-exec-6] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:05:37.139+03:00 DEBUG 41592 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:37.139+03:00 DEBUG 41592 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:37.140+03:00 DEBUG 41592 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:05:38.152+03:00 DEBUG 41592 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:38.152+03:00 DEBUG 41592 --- [http-nio-8080-exec-7] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:38.152+03:00 DEBUG 41592 --- [http-nio-8080-exec-7] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:05:38.153+03:00 DEBUG 41592 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:38.154+03:00 DEBUG 41592 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:38.155+03:00 DEBUG 41592 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:05:39.137+03:00 DEBUG 41592 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:39.137+03:00 DEBUG 41592 --- [http-nio-8080-exec-8] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:39.138+03:00 DEBUG 41592 --- [http-nio-8080-exec-8] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:05:39.138+03:00 DEBUG 41592 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:39.138+03:00 DEBUG 41592 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:39.140+03:00 DEBUG 41592 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:05:40.180+03:00 DEBUG 41592 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:40.180+03:00 DEBUG 41592 --- [http-nio-8080-exec-9] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:40.180+03:00 DEBUG 41592 --- [http-nio-8080-exec-9] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:05:40.181+03:00 DEBUG 41592 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:40.181+03:00 DEBUG 41592 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:40.183+03:00 DEBUG 41592 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:05:41.082+03:00 DEBUG 41592 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:41.082+03:00 DEBUG 41592 --- [http-nio-8080-exec-10] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:41.083+03:00 DEBUG 41592 --- [http-nio-8080-exec-10] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:05:41.083+03:00 DEBUG 41592 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:41.084+03:00 DEBUG 41592 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:41.085+03:00 DEBUG 41592 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:05:42.023+03:00 DEBUG 41592 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:42.024+03:00 DEBUG 41592 --- [http-nio-8080-exec-1] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:42.024+03:00 DEBUG 41592 --- [http-nio-8080-exec-1] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:05:42.025+03:00 DEBUG 41592 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:42.025+03:00 DEBUG 41592 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:42.027+03:00 DEBUG 41592 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:05:42.901+03:00 DEBUG 41592 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:42.901+03:00 DEBUG 41592 --- [http-nio-8080-exec-2] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:42.901+03:00 DEBUG 41592 --- [http-nio-8080-exec-2] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:05:42.902+03:00 DEBUG 41592 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:42.902+03:00 DEBUG 41592 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:05:42.904+03:00 DEBUG 41592 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:05:46.563+03:00  INFO 41592 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T15:05:46.566+03:00  INFO 41592 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-02T15:05:46.568+03:00  INFO 41592 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-02T15:07:30.040+03:00  INFO 7752 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : Starting TestHhBankApplication using Java 17.0.2 with PID 7752 (C:\Users\Сева Счетов\IdeaProjects\TestHHBank\target\classes started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T15:07:30.042+03:00  INFO 7752 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T15:07:30.070+03:00  INFO 7752 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-02T15:07:30.071+03:00  INFO 7752 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-02T15:07:30.550+03:00  INFO 7752 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-02T15:07:30.584+03:00  INFO 7752 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2024-03-02T15:07:31.014+03:00  INFO 7752 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-02T15:07:31.023+03:00  INFO 7752 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-02T15:07:31.023+03:00  INFO 7752 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-02T15:07:31.067+03:00  INFO 7752 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-02T15:07:31.067+03:00  INFO 7752 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 996 ms
+2024-03-02T15:07:31.136+03:00  INFO 7752 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-02T15:07:31.254+03:00  INFO 7752 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7acae081
+2024-03-02T15:07:31.255+03:00  INFO 7752 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-02T15:07:31.320+03:00  INFO 7752 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-02T15:07:31.361+03:00  INFO 7752 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-02T15:07:31.389+03:00  INFO 7752 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-02T15:07:31.549+03:00  INFO 7752 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-02T15:07:32.222+03:00  INFO 7752 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-02T15:07:32.225+03:00  INFO 7752 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T15:07:32.427+03:00  INFO 7752 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-02T15:07:32.686+03:00  WARN 7752 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-02T15:07:32.989+03:00  WARN 7752 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 50d6f637-9015-4a62-a580-6d644188f57b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-02T15:07:33.049+03:00  INFO 7752 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c9ec009, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@22ee6273, org.springframework.security.web.context.SecurityContextHolderFilter@40df51ee, org.springframework.security.web.header.HeaderWriterFilter@bd6a40d, org.springframework.web.filter.CorsFilter@183964ae, org.springframework.security.web.csrf.CsrfFilter@1e88fa93, org.springframework.security.web.authentication.logout.LogoutFilter@65c5d4d7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ed165bb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f1858a2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2994b527, org.springframework.security.web.access.ExceptionTranslationFilter@3b2e7af6, org.springframework.security.web.access.intercept.AuthorizationFilter@2c325f86]
+2024-03-02T15:07:33.150+03:00  WARN 7752 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-02T15:07:33.265+03:00  INFO 7752 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-02T15:07:33.293+03:00  INFO 7752 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-02T15:07:33.302+03:00  INFO 7752 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : Started TestHhBankApplication in 3.554 seconds (process running for 4.02)
+2024-03-02T15:07:49.947+03:00  INFO 7752 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-02T15:07:49.948+03:00  INFO 7752 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-02T15:07:49.950+03:00  INFO 7752 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-03-02T15:07:49.963+03:00 DEBUG 7752 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:07:49.993+03:00 DEBUG 7752 --- [http-nio-8080-exec-1] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8080/api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:07:49.993+03:00 DEBUG 7752 --- [http-nio-8080-exec-1] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:07:49.997+03:00 DEBUG 7752 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:07:50.002+03:00 DEBUG 7752 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured PATCH /error?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:07:50.046+03:00 DEBUG 7752 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:07:56.865+03:00  INFO 7752 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T15:07:56.867+03:00  INFO 7752 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-02T15:07:56.870+03:00  INFO 7752 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-02T15:08:40.781+03:00  INFO 28868 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : Starting TestHhBankApplication using Java 17.0.2 with PID 28868 (C:\Users\Сева Счетов\IdeaProjects\TestHHBank\target\classes started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T15:08:40.783+03:00  INFO 28868 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T15:08:40.813+03:00  INFO 28868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-02T15:08:40.813+03:00  INFO 28868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-02T15:08:41.303+03:00  INFO 28868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-02T15:08:41.340+03:00  INFO 28868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2024-03-02T15:08:41.814+03:00  INFO 28868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-02T15:08:41.822+03:00  INFO 28868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-02T15:08:41.822+03:00  INFO 28868 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-02T15:08:41.861+03:00  INFO 28868 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-02T15:08:41.861+03:00  INFO 28868 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1047 ms
+2024-03-02T15:08:41.936+03:00  INFO 28868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-02T15:08:42.061+03:00  INFO 28868 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4150375a
+2024-03-02T15:08:42.063+03:00  INFO 28868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-02T15:08:42.132+03:00  INFO 28868 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-02T15:08:42.172+03:00  INFO 28868 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-02T15:08:42.200+03:00  INFO 28868 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-02T15:08:42.370+03:00  INFO 28868 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-02T15:08:43.016+03:00  INFO 28868 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-02T15:08:43.018+03:00  INFO 28868 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T15:08:43.212+03:00  INFO 28868 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-02T15:08:43.459+03:00  WARN 28868 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-02T15:08:43.721+03:00  WARN 28868 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 321ca8fa-afd5-4c61-a4d6-e77dad40e1a8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-02T15:08:43.779+03:00  INFO 28868 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@12ccb961, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4103a382, org.springframework.security.web.context.SecurityContextHolderFilter@6ed165bb, org.springframework.security.web.header.HeaderWriterFilter@2e1fe0fb, org.springframework.web.filter.CorsFilter@4d321b08, org.springframework.security.web.authentication.logout.LogoutFilter@1e67d6ec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f22e8e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@403973c7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b20502c, org.springframework.security.web.access.ExceptionTranslationFilter@bd6a40d, org.springframework.security.web.access.intercept.AuthorizationFilter@183964ae]
+2024-03-02T15:08:43.881+03:00  WARN 28868 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-02T15:08:43.994+03:00  INFO 28868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-02T15:08:44.021+03:00  INFO 28868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-02T15:08:44.029+03:00  INFO 28868 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : Started TestHhBankApplication in 3.543 seconds (process running for 4.018)
+2024-03-02T15:08:50.443+03:00  INFO 28868 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-02T15:08:50.443+03:00  INFO 28868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-02T15:08:50.444+03:00  INFO 28868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-02T15:08:50.455+03:00 DEBUG 28868 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:08:50.464+03:00 DEBUG 28868 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured PATCH /api/transfer?fromUserId=1&toUserId=2&amount=10
+2024-03-02T15:08:50.501+03:00 DEBUG 28868 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:08:56.499+03:00  INFO 28868 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T15:08:56.502+03:00  INFO 28868 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-02T15:08:56.505+03:00  INFO 28868 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-02T15:09:09.178+03:00  INFO 2736 --- [main] b.t.web.api.BalanceControllerTest        : Starting BalanceControllerTest using Java 17.0.2 with PID 2736 (started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T15:09:09.179+03:00  INFO 2736 --- [main] b.t.web.api.BalanceControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T15:09:11.103+03:00  WARN 2736 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-02T15:09:11.175+03:00  WARN 2736 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7d6d4015-9420-481b-903f-d072fee9d93e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-02T15:09:11.285+03:00  INFO 2736 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@100eeedc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56266bda, org.springframework.security.web.context.SecurityContextHolderFilter@1c18ee69, org.springframework.security.web.header.HeaderWriterFilter@1c4057f9, org.springframework.web.filter.CorsFilter@18bb1b88, org.springframework.security.web.csrf.CsrfFilter@194224ca, org.springframework.security.web.authentication.logout.LogoutFilter@6c70b7c3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@214fba74, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4ffa7041, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@51b51641, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4e2109fe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65d7eea4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d37aa0f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@362a6aa5, org.springframework.security.web.access.ExceptionTranslationFilter@18db3b3c, org.springframework.security.web.access.intercept.AuthorizationFilter@277bc3a5]
+2024-03-02T15:09:11.320+03:00  INFO 2736 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-02T15:09:11.321+03:00  INFO 2736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-02T15:09:11.322+03:00  INFO 2736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-03-02T15:09:11.354+03:00  INFO 2736 --- [main] b.t.web.api.BalanceControllerTest        : Started BalanceControllerTest in 2.5 seconds (process running for 3.322)
+2024-03-02T15:09:11.425+03:00 DEBUG 2736 --- [main] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer
+2024-03-02T15:09:11.434+03:00 DEBUG 2736 --- [main] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost/api/transfer
+2024-03-02T15:09:11.435+03:00 DEBUG 2736 --- [main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:09:11.470+03:00 DEBUG 2736 --- [main] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer
+2024-03-02T15:09:11.471+03:00 DEBUG 2736 --- [main] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost/api/transfer
+2024-03-02T15:09:11.471+03:00 DEBUG 2736 --- [main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:09:11.477+03:00 DEBUG 2736 --- [main] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer
+2024-03-02T15:09:11.478+03:00 DEBUG 2736 --- [main] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost/api/transfer
+2024-03-02T15:09:11.478+03:00 DEBUG 2736 --- [main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:09:37.365+03:00  INFO 32460 --- [main] b.t.web.api.BalanceControllerTest        : Starting BalanceControllerTest using Java 17.0.2 with PID 32460 (started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T15:09:37.367+03:00  INFO 32460 --- [main] b.t.web.api.BalanceControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T15:09:39.180+03:00  WARN 32460 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-02T15:09:39.246+03:00  WARN 32460 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 93bb757c-5d5a-4f98-ada8-4ba3d9c22176
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-02T15:09:39.357+03:00  INFO 32460 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@100eeedc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56266bda, org.springframework.security.web.context.SecurityContextHolderFilter@1c18ee69, org.springframework.security.web.header.HeaderWriterFilter@1c4057f9, org.springframework.web.filter.CorsFilter@18bb1b88, org.springframework.security.web.csrf.CsrfFilter@194224ca, org.springframework.security.web.authentication.logout.LogoutFilter@6c70b7c3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@214fba74, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4ffa7041, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@51b51641, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4e2109fe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65d7eea4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d37aa0f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@362a6aa5, org.springframework.security.web.access.ExceptionTranslationFilter@18db3b3c, org.springframework.security.web.access.intercept.AuthorizationFilter@277bc3a5]
+2024-03-02T15:09:39.397+03:00  INFO 32460 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-02T15:09:39.397+03:00  INFO 32460 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-02T15:09:39.399+03:00  INFO 32460 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-03-02T15:09:39.432+03:00  INFO 32460 --- [main] b.t.web.api.BalanceControllerTest        : Started BalanceControllerTest in 2.407 seconds (process running for 3.227)
+2024-03-02T15:09:39.510+03:00 DEBUG 32460 --- [main] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer
+2024-03-02T15:09:39.518+03:00 DEBUG 32460 --- [main] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost/api/transfer
+2024-03-02T15:09:39.518+03:00 DEBUG 32460 --- [main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:09:39.547+03:00 DEBUG 32460 --- [main] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer
+2024-03-02T15:09:39.547+03:00 DEBUG 32460 --- [main] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost/api/transfer
+2024-03-02T15:09:39.548+03:00 DEBUG 32460 --- [main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:09:39.556+03:00 DEBUG 32460 --- [main] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer
+2024-03-02T15:09:39.556+03:00 DEBUG 32460 --- [main] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost/api/transfer
+2024-03-02T15:09:39.556+03:00 DEBUG 32460 --- [main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:10:11.600+03:00  INFO 21940 --- [main] b.t.web.api.BalanceControllerTest        : Starting BalanceControllerTest using Java 17.0.2 with PID 21940 (started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T15:10:11.601+03:00  INFO 21940 --- [main] b.t.web.api.BalanceControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T15:10:13.350+03:00  WARN 21940 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-02T15:10:13.410+03:00  WARN 21940 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ecb6c9ad-50e1-4a66-8f87-46c8020e31af
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-02T15:10:13.515+03:00  INFO 21940 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3de8f85c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@21abda60, org.springframework.security.web.context.SecurityContextHolderFilter@586737ff, org.springframework.security.web.header.HeaderWriterFilter@5368e981, org.springframework.web.filter.CorsFilter@dd20ebc, org.springframework.security.web.csrf.CsrfFilter@401926df, org.springframework.security.web.authentication.logout.LogoutFilter@18db3b3c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@56b05bd7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@ff5d4f1, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6c70b7c3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@794cb26b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@685e6a68, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2fb48970, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16a09809, org.springframework.security.web.access.ExceptionTranslationFilter@6851b296, org.springframework.security.web.access.intercept.AuthorizationFilter@632c3f55]
+2024-03-02T15:10:13.547+03:00  INFO 21940 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-02T15:10:13.547+03:00  INFO 21940 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-02T15:10:13.549+03:00  INFO 21940 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-03-02T15:10:13.580+03:00  INFO 21940 --- [main] b.t.web.api.BalanceControllerTest        : Started BalanceControllerTest in 2.308 seconds (process running for 3.149)
+2024-03-02T15:10:13.662+03:00 DEBUG 21940 --- [main] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer
+2024-03-02T15:10:13.669+03:00 DEBUG 21940 --- [main] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost/api/transfer
+2024-03-02T15:10:13.669+03:00 DEBUG 21940 --- [main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:10:13.695+03:00 DEBUG 21940 --- [main] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer
+2024-03-02T15:10:13.696+03:00 DEBUG 21940 --- [main] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost/api/transfer
+2024-03-02T15:10:13.696+03:00 DEBUG 21940 --- [main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:10:13.703+03:00 DEBUG 21940 --- [main] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer
+2024-03-02T15:10:13.707+03:00 DEBUG 21940 --- [main] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost/api/transfer
+2024-03-02T15:10:13.707+03:00 DEBUG 21940 --- [main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:12:53.481+03:00  INFO 33820 --- [main] b.t.web.api.BalanceControllerTest        : Starting BalanceControllerTest using Java 17.0.2 with PID 33820 (started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T15:12:53.483+03:00  INFO 33820 --- [main] b.t.web.api.BalanceControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T15:12:55.289+03:00  WARN 33820 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-02T15:12:55.354+03:00  WARN 33820 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 4931130d-1f9d-45b7-b051-9e387ba045d6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-02T15:12:55.459+03:00  INFO 33820 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@aa0dbca, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@794cb26b, org.springframework.security.web.context.SecurityContextHolderFilter@9e50283, org.springframework.security.web.header.HeaderWriterFilter@77ba583, org.springframework.web.filter.CorsFilter@5b7ee56c, org.springframework.security.web.csrf.CsrfFilter@28ce75ec, org.springframework.security.web.authentication.logout.LogoutFilter@5c4714ef, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1224e1b6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4e8d9bb6, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@311a0b3e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@48277712, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c171746, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79b7c350, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3de8f85c, org.springframework.security.web.access.ExceptionTranslationFilter@6f7a20da, org.springframework.security.web.access.intercept.AuthorizationFilter@485c84d7]
+2024-03-02T15:12:55.494+03:00  INFO 33820 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-02T15:12:55.494+03:00  INFO 33820 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-02T15:12:55.495+03:00  INFO 33820 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-03-02T15:12:55.525+03:00  INFO 33820 --- [main] b.t.web.api.BalanceControllerTest        : Started BalanceControllerTest in 2.388 seconds (process running for 3.187)
+2024-03-02T15:12:55.602+03:00 DEBUG 33820 --- [main] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer
+2024-03-02T15:12:55.610+03:00 DEBUG 33820 --- [main] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost/api/transfer
+2024-03-02T15:12:55.611+03:00 DEBUG 33820 --- [main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:18:15.099+03:00  INFO 8316 --- [main] b.t.web.api.BalanceControllerTest        : Starting BalanceControllerTest using Java 17.0.2 with PID 8316 (started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T15:18:15.101+03:00  INFO 8316 --- [main] b.t.web.api.BalanceControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T15:18:16.911+03:00  WARN 8316 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-02T15:18:16.972+03:00  WARN 8316 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2e3ebe2f-8e39-4846-a1b3-f1a0524abd55
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-02T15:18:17.079+03:00  INFO 8316 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@311a0b3e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3de8f85c, org.springframework.security.web.context.SecurityContextHolderFilter@79b7c350, org.springframework.security.web.header.HeaderWriterFilter@9e50283, org.springframework.web.filter.CorsFilter@21abda60, org.springframework.security.web.csrf.CsrfFilter@1ba35152, org.springframework.security.web.authentication.logout.LogoutFilter@7cdfa824, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@632c3f55, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2d07aacc, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@dd20ebc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@aa0dbca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4cd7e993, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@685e6a68, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c70b7c3, org.springframework.security.web.access.ExceptionTranslationFilter@5613247e, org.springframework.security.web.access.intercept.AuthorizationFilter@4ffa7041]
+2024-03-02T15:18:17.111+03:00  INFO 8316 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-02T15:18:17.111+03:00  INFO 8316 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-02T15:18:17.112+03:00  INFO 8316 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-03-02T15:18:17.148+03:00  INFO 8316 --- [main] b.t.web.api.BalanceControllerTest        : Started BalanceControllerTest in 2.406 seconds (process running for 3.289)
+2024-03-02T15:18:17.230+03:00 DEBUG 8316 --- [main] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer
+2024-03-02T15:18:17.237+03:00 DEBUG 8316 --- [main] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost/api/transfer
+2024-03-02T15:18:17.237+03:00 DEBUG 8316 --- [main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:31:01.213+03:00  INFO 38280 --- [main] b.t.web.api.BalanceControllerTest        : Starting BalanceControllerTest using Java 17.0.2 with PID 38280 (started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T15:31:01.214+03:00  INFO 38280 --- [main] b.t.web.api.BalanceControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T15:31:03.295+03:00  WARN 38280 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-02T15:31:03.368+03:00  WARN 38280 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 4d26c789-a68e-41f5-84b3-070b911485bd
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-02T15:31:03.508+03:00  INFO 38280 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@126a9a3d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7db47323, org.springframework.security.web.context.SecurityContextHolderFilter@34e990cc, org.springframework.security.web.header.HeaderWriterFilter@e72fb04, org.springframework.web.filter.CorsFilter@5529522f, org.springframework.security.web.csrf.CsrfFilter@139089a4, org.springframework.security.web.authentication.logout.LogoutFilter@6f6c8d45, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@402a69f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@627bcd7e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@175ac243, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@43a59289, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21f91efa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4df0d9f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51a719e7, org.springframework.security.web.access.ExceptionTranslationFilter@1008df1e, org.springframework.security.web.access.intercept.AuthorizationFilter@63e70bf9]
+2024-03-02T15:31:03.560+03:00  INFO 38280 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-02T15:31:03.560+03:00  INFO 38280 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-02T15:31:03.561+03:00  INFO 38280 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-03-02T15:31:03.606+03:00  INFO 38280 --- [main] b.t.web.api.BalanceControllerTest        : Started BalanceControllerTest in 2.817 seconds (process running for 3.939)
+2024-03-02T15:31:03.689+03:00 DEBUG 38280 --- [main] o.s.security.web.FilterChainProxy        : Securing PATCH /api/transfer
+2024-03-02T15:31:03.698+03:00 DEBUG 38280 --- [main] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost/api/transfer
+2024-03-02T15:31:03.699+03:00 DEBUG 38280 --- [main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2024-03-02T15:31:08.324+03:00  INFO 33120 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : Starting TestHhBankApplication using Java 17.0.2 with PID 33120 (C:\Users\Сева Счетов\IdeaProjects\TestHHBank\target\classes started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T15:31:08.326+03:00  INFO 33120 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T15:31:08.354+03:00  INFO 33120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-02T15:31:08.354+03:00  INFO 33120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-02T15:31:08.855+03:00  INFO 33120 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-02T15:31:08.891+03:00  INFO 33120 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2024-03-02T15:31:09.355+03:00  INFO 33120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-02T15:31:09.365+03:00  INFO 33120 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-02T15:31:09.365+03:00  INFO 33120 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-02T15:31:09.413+03:00  INFO 33120 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-02T15:31:09.413+03:00  INFO 33120 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1058 ms
+2024-03-02T15:31:09.490+03:00  INFO 33120 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-02T15:31:09.734+03:00  INFO 33120 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@30a4d3c6
+2024-03-02T15:31:09.735+03:00  INFO 33120 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-02T15:31:09.813+03:00  INFO 33120 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-02T15:31:09.879+03:00  INFO 33120 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-02T15:31:09.912+03:00  INFO 33120 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-02T15:31:10.101+03:00  INFO 33120 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-02T15:31:10.869+03:00  INFO 33120 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-02T15:31:10.870+03:00  INFO 33120 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T15:31:11.109+03:00  INFO 33120 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-02T15:31:11.401+03:00  WARN 33120 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-02T15:31:11.677+03:00  WARN 33120 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1f984be8-f17e-4b86-be3d-74deb80b6f47
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-02T15:31:11.736+03:00  INFO 33120 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@20f23f30, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53959e23, org.springframework.security.web.context.SecurityContextHolderFilter@4a330e38, org.springframework.security.web.header.HeaderWriterFilter@40283cfa, org.springframework.web.filter.CorsFilter@6bb7ab08, org.springframework.security.web.authentication.logout.LogoutFilter@18588ec1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42335d98, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29073dca, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5655041f, org.springframework.security.web.access.ExceptionTranslationFilter@36e647cb, org.springframework.security.web.access.intercept.AuthorizationFilter@1d1dd13c]
+2024-03-02T15:31:11.844+03:00  WARN 33120 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-02T15:31:11.974+03:00  INFO 33120 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-02T15:31:12.002+03:00  INFO 33120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-02T15:31:12.011+03:00  INFO 33120 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : Started TestHhBankApplication in 3.992 seconds (process running for 4.555)
+2024-03-02T15:31:23.625+03:00  INFO 33120 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-02T15:31:23.625+03:00  INFO 33120 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-02T15:31:23.626+03:00  INFO 33120 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-02T15:31:23.645+03:00 DEBUG 33120 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /v2/api-docs
+2024-03-02T15:31:23.655+03:00 DEBUG 33120 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /v2/api-docs
+2024-03-02T15:31:23.669+03:00 DEBUG 33120 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:31:23.677+03:00 DEBUG 33120 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /error
+2024-03-02T15:31:23.677+03:00 DEBUG 33120 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /error
+2024-03-02T15:31:23.705+03:00 DEBUG 33120 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:31:23.856+03:00 DEBUG 33120 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /favicon.ico
+2024-03-02T15:31:23.856+03:00 DEBUG 33120 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /favicon.ico
+2024-03-02T15:31:23.859+03:00 DEBUG 33120 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:31:23.860+03:00 DEBUG 33120 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /error
+2024-03-02T15:31:23.860+03:00 DEBUG 33120 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /error
+2024-03-02T15:31:23.894+03:00 DEBUG 33120 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:31:46.784+03:00  INFO 33120 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T15:31:46.787+03:00  INFO 33120 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-02T15:31:46.790+03:00  INFO 33120 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-02T15:32:56.226+03:00  INFO 33440 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : Starting TestHhBankApplication using Java 17.0.2 with PID 33440 (C:\Users\Сева Счетов\IdeaProjects\TestHHBank\target\classes started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T15:32:56.228+03:00  INFO 33440 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T15:32:56.261+03:00  INFO 33440 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-02T15:32:56.261+03:00  INFO 33440 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-02T15:32:56.783+03:00  INFO 33440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-02T15:32:56.821+03:00  INFO 33440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2024-03-02T15:32:57.290+03:00  INFO 33440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-02T15:32:57.297+03:00  INFO 33440 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-02T15:32:57.297+03:00  INFO 33440 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-02T15:32:57.346+03:00  INFO 33440 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-02T15:32:57.346+03:00  INFO 33440 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1085 ms
+2024-03-02T15:32:57.413+03:00  INFO 33440 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-02T15:32:57.545+03:00  INFO 33440 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@75a0cecd
+2024-03-02T15:32:57.546+03:00  INFO 33440 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-02T15:32:57.617+03:00  INFO 33440 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-02T15:32:57.667+03:00  INFO 33440 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-02T15:32:57.694+03:00  INFO 33440 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-02T15:32:57.878+03:00  INFO 33440 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-02T15:32:58.602+03:00  INFO 33440 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-02T15:32:58.605+03:00  INFO 33440 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T15:32:58.839+03:00  INFO 33440 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-02T15:32:59.105+03:00  WARN 33440 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-02T15:32:59.406+03:00  WARN 33440 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: bf42ec0e-3ede-4336-b103-ba5a02ebe137
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-02T15:32:59.481+03:00  INFO 33440 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6a94e658, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72541878, org.springframework.security.web.context.SecurityContextHolderFilter@4a4825b7, org.springframework.security.web.header.HeaderWriterFilter@412e8bb4, org.springframework.web.filter.CorsFilter@72b361eb, org.springframework.security.web.authentication.logout.LogoutFilter@fa2482b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78a68737, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50d3f51, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1bc81641, org.springframework.security.web.access.ExceptionTranslationFilter@3133f6ff, org.springframework.security.web.access.intercept.AuthorizationFilter@2fc6f3c9]
+2024-03-02T15:32:59.606+03:00  WARN 33440 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-02T15:32:59.726+03:00  INFO 33440 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-02T15:32:59.755+03:00  INFO 33440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-02T15:32:59.764+03:00  INFO 33440 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : Started TestHhBankApplication in 3.866 seconds (process running for 4.451)
+2024-03-02T15:33:16.820+03:00  INFO 33440 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-02T15:33:16.820+03:00  INFO 33440 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-02T15:33:16.821+03:00  INFO 33440 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-02T15:33:16.837+03:00 DEBUG 33440 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/
+2024-03-02T15:33:16.845+03:00 DEBUG 33440 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/
+2024-03-02T15:33:16.860+03:00 DEBUG 33440 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:33:16.866+03:00 DEBUG 33440 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /error
+2024-03-02T15:33:16.866+03:00 DEBUG 33440 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /error
+2024-03-02T15:33:16.892+03:00 DEBUG 33440 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T15:33:30.807+03:00  INFO 33440 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T15:33:30.809+03:00  INFO 33440 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-02T15:33:30.813+03:00  INFO 33440 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-02T15:33:53.116+03:00  INFO 39388 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : Starting TestHhBankApplication using Java 17.0.2 with PID 39388 (C:\Users\Сева Счетов\IdeaProjects\TestHHBank\target\classes started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T15:33:53.118+03:00  INFO 39388 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T15:33:53.152+03:00  INFO 39388 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-02T15:33:53.152+03:00  INFO 39388 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-02T15:33:53.733+03:00  WARN 39388 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+2024-03-02T15:33:53.739+03:00  INFO 39388 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-02T15:33:53.755+03:00 ERROR 39388 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.computeSuperInterfaces(ClassRepository.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:95) ~[na:na]
+	at java.base/java.lang.Class.getGenericInterfaces(Class.java:1211) ~[na:na]
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:517) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.core.ResolvableType.as(ResolvableType.java:465) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.core.ResolvableType.forClass(ResolvableType.java:1093) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.getTargetType(PluginRegistriesBeanDefinitionRegistrar.java:101) ~[spring-plugin-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.registerBeanDefinitions(PluginRegistriesBeanDefinitionRegistrar.java:71) ~[spring-plugin-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:376) ~[spring-context-6.1.4.jar:6.1.4]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[na:na]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:375) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:428) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at bank.testhhbank.TestHhBankApplication.main(TestHhBankApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.3.jar:3.2.3]
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) ~[na:na]
+	... 37 common frames omitted
+
+2024-03-02T15:37:11.024+03:00  INFO 4292 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : Starting TestHhBankApplication using Java 17.0.2 with PID 4292 (C:\Users\Сева Счетов\IdeaProjects\TestHHBank\target\classes started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T15:37:11.025+03:00  INFO 4292 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T15:37:11.059+03:00  INFO 4292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-02T15:37:11.060+03:00  INFO 4292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-02T15:37:11.599+03:00  WARN 4292 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+2024-03-02T15:37:11.604+03:00  INFO 4292 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-02T15:37:11.619+03:00 ERROR 4292 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.computeSuperInterfaces(ClassRepository.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:95) ~[na:na]
+	at java.base/java.lang.Class.getGenericInterfaces(Class.java:1211) ~[na:na]
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:517) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.core.ResolvableType.as(ResolvableType.java:465) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.core.ResolvableType.forClass(ResolvableType.java:1093) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.getTargetType(PluginRegistriesBeanDefinitionRegistrar.java:101) ~[spring-plugin-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.registerBeanDefinitions(PluginRegistriesBeanDefinitionRegistrar.java:71) ~[spring-plugin-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:376) ~[spring-context-6.1.4.jar:6.1.4]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[na:na]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:375) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:428) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at bank.testhhbank.TestHhBankApplication.main(TestHhBankApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.3.jar:3.2.3]
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) ~[na:na]
+	... 37 common frames omitted
+
+2024-03-02T16:49:22.590+03:00  INFO 41628 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : Starting TestHhBankApplication using Java 17.0.2 with PID 41628 (C:\Users\Сева Счетов\IdeaProjects\TestHHBank\target\classes started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T16:49:22.594+03:00  INFO 41628 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T16:49:22.657+03:00  INFO 41628 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-02T16:49:22.657+03:00  INFO 41628 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-02T16:49:23.653+03:00  WARN 41628 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+2024-03-02T16:49:23.663+03:00  INFO 41628 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-02T16:49:23.692+03:00 ERROR 41628 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.computeSuperInterfaces(ClassRepository.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:95) ~[na:na]
+	at java.base/java.lang.Class.getGenericInterfaces(Class.java:1211) ~[na:na]
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:517) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.core.ResolvableType.as(ResolvableType.java:465) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.core.ResolvableType.forClass(ResolvableType.java:1093) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.getTargetType(PluginRegistriesBeanDefinitionRegistrar.java:101) ~[spring-plugin-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.registerBeanDefinitions(PluginRegistriesBeanDefinitionRegistrar.java:71) ~[spring-plugin-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:376) ~[spring-context-6.1.4.jar:6.1.4]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[na:na]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:375) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:428) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at bank.testhhbank.TestHhBankApplication.main(TestHhBankApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.3.jar:3.2.3]
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114) ~[na:na]
+	... 37 common frames omitted
+
+2024-03-02T16:53:29.150+03:00  INFO 5156 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : Starting TestHhBankApplication using Java 17.0.2 with PID 5156 (C:\Users\Сева Счетов\IdeaProjects\TestHHBank\target\classes started by Сева Счетов in C:\Users\Сева Счетов\IdeaProjects\TestHHBank)
+2024-03-02T16:53:29.153+03:00  INFO 5156 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-03-02T16:53:29.206+03:00  INFO 5156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-02T16:53:29.207+03:00  INFO 5156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-02T16:53:30.263+03:00  INFO 5156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-02T16:53:30.333+03:00  INFO 5156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
+2024-03-02T16:53:31.184+03:00  INFO 5156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-02T16:53:31.199+03:00  INFO 5156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-02T16:53:31.200+03:00  INFO 5156 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-02T16:53:31.280+03:00  INFO 5156 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-02T16:53:31.280+03:00  INFO 5156 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2072 ms
+2024-03-02T16:53:31.413+03:00  INFO 5156 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-02T16:53:31.689+03:00  INFO 5156 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@714eeeff
+2024-03-02T16:53:31.691+03:00  INFO 5156 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-02T16:53:31.830+03:00  INFO 5156 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-02T16:53:31.942+03:00  INFO 5156 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-02T16:53:32.000+03:00  INFO 5156 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-02T16:53:32.363+03:00  INFO 5156 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-02T16:53:33.778+03:00  INFO 5156 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-02T16:53:33.782+03:00  INFO 5156 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T16:53:34.202+03:00  INFO 5156 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-02T16:53:34.806+03:00  WARN 5156 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-02T16:53:35.282+03:00  WARN 5156 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: cadafcae-d24b-4335-be95-506921b76d27
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-02T16:53:35.383+03:00  INFO 5156 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1ccf9c4c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40658c3f, org.springframework.security.web.context.SecurityContextHolderFilter@447b560b, org.springframework.security.web.header.HeaderWriterFilter@51fb3776, org.springframework.web.filter.CorsFilter@6fa73e97, org.springframework.security.web.authentication.logout.LogoutFilter@56415b82, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@26dd4880, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@61a924ae, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67312042, org.springframework.security.web.access.ExceptionTranslationFilter@5774595c, org.springframework.security.web.access.intercept.AuthorizationFilter@81a8d9f]
+2024-03-02T16:53:35.563+03:00  WARN 5156 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-03-02T16:53:35.767+03:00  INFO 5156 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-02T16:53:35.805+03:00  INFO 5156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-02T16:53:35.817+03:00  INFO 5156 --- [restartedMain] bank.testhhbank.TestHhBankApplication    : Started TestHhBankApplication in 7.195 seconds (process running for 8.057)
+2024-03-02T16:53:49.591+03:00  INFO 5156 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-02T16:53:49.592+03:00  INFO 5156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-02T16:53:49.594+03:00  INFO 5156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-03-02T16:53:49.615+03:00 DEBUG 5156 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/index.html
+2024-03-02T16:53:49.625+03:00 DEBUG 5156 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/index.html
+2024-03-02T16:53:49.655+03:00 DEBUG 5156 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T16:53:49.696+03:00 DEBUG 5156 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui.css
+2024-03-02T16:53:49.698+03:00 DEBUG 5156 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui.css
+2024-03-02T16:53:49.699+03:00 DEBUG 5156 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/index.css
+2024-03-02T16:53:49.699+03:00 DEBUG 5156 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/index.css
+2024-03-02T16:53:49.699+03:00 DEBUG 5156 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui-bundle.js
+2024-03-02T16:53:49.700+03:00 DEBUG 5156 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2024-03-02T16:53:49.700+03:00 DEBUG 5156 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui-bundle.js
+2024-03-02T16:53:49.700+03:00 DEBUG 5156 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2024-03-02T16:53:49.700+03:00 DEBUG 5156 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-initializer.js
+2024-03-02T16:53:49.700+03:00 DEBUG 5156 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-initializer.js
+2024-03-02T16:53:49.703+03:00 DEBUG 5156 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T16:53:49.704+03:00 DEBUG 5156 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T16:53:49.705+03:00 DEBUG 5156 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T16:53:49.715+03:00 DEBUG 5156 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T16:53:49.726+03:00 DEBUG 5156 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T16:53:50.020+03:00 DEBUG 5156 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /v3/api-docs/swagger-config
+2024-03-02T16:53:50.020+03:00 DEBUG 5156 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /v3/api-docs/swagger-config
+2024-03-02T16:53:50.021+03:00 DEBUG 5156 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/favicon-32x32.png
+2024-03-02T16:53:50.022+03:00 DEBUG 5156 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/favicon-32x32.png
+2024-03-02T16:53:50.026+03:00 DEBUG 5156 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T16:53:50.044+03:00 DEBUG 5156 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T16:53:50.071+03:00 DEBUG 5156 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /v3/api-docs
+2024-03-02T16:53:50.072+03:00 DEBUG 5156 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /v3/api-docs
+2024-03-02T16:53:50.580+03:00  INFO 5156 --- [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 495 ms
+2024-03-02T16:53:50.604+03:00 DEBUG 5156 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-03-02T16:55:43.812+03:00  INFO 5156 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-02T16:55:43.816+03:00  INFO 5156 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-02T16:55:43.821+03:00  INFO 5156 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
